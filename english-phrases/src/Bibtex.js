@@ -18,11 +18,10 @@ const accessed = () => format("Online; {0}-{1}-{2}", current.getDate(), getShort
 const miscVal = (url) => {
     return `@misc{bworld,
         author = {},
-        title = {{}},
+        title = {},
         howpublished = "\\url{${url}}",
         year = {2008}, 
-        note = "${accessed()}"
-      }
+        note = "${accessed()}"}
       `
       
 }
