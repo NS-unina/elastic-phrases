@@ -14,7 +14,7 @@ Useful library for writing English papers, based on :
 ## Usage:  
 Run compose:   
 ``` 
-docker-compose -f docker-compose-dev.yml up
+docker-compose up
 ```  
 Then import data in the elastic  
 ```  
