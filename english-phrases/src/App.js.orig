@@ -4,7 +4,6 @@ import Alert from 'react-bootstrap/Alert';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Bibtex from './Bibtex';
-import Json from './Json';
 
 
 
@@ -19,9 +18,7 @@ import {
   SingleDropdownList
 } from "@appbaseio/reactivesearch";
 
-
-
-
+// https://codepen.io/ghozt12/pen/LVaxLM
 
 
 function reactiveBase() {
@@ -123,7 +120,6 @@ function App() {
 
   <TabPanel>
     {reactiveBase()}
-    {/* <Json></Json> */}
   </TabPanel>
   <TabPanel>
     <Bibtex></Bibtex>
